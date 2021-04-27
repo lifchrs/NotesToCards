@@ -40,12 +40,49 @@ The .exe file is for Windows, and the .out file is for Mac OS.
 
 If you are familiar with command line, you will realise that some of the steps below can be skipped, but I've included them because I believe that they make the program a lot easier to use. Skip those steps if you wish to, but I suggest that everybody just follow all of the steps below. If you don't know what steps can be skipped, then you probably should just stick to all of the instructions below.
 
-# Instructions for downloading the program for Windows:
+### Instructions for downloading the program for Windows:
 1. Create a folder in your Desktop for the use of this program. If you already have a folder for whatever subject this is for, then feel free to use that.
 2. Download the .exe file into the folder that you just created.
 
-# Instructions for downloading the program for Mac OS:
+### Instructions for downloading the program for Mac OS:
 1. Create a folder in your Desktop, or use an existing folder. For all of the following instructions, **I will assume that the name of your folder is "carder". If it isn't "carder", then please replace "carder" with whatever the folder name is.**
 2. Download the .out file and move it to carder.
-3. Open terminal and type ``cd ~/Desktop/carder`` (switch "carder" out if necessary)
-4. 
+3. Open terminal and type ``cd ~/Desktop/carder`` and hit enter (switch "carder" out if necessary). You should not be getting any error messages.
+4. Then type ``chmod +x a.out``. If you get any pop-up regarding the file not being safe because it was downloaded from Github, go to System Preferences->Security and Privacy and allow the file to be downloaded
+
+## Note Formatting (IMPORTANT)
+
+Your notes **must be in a specific format for the program to work.** There are three important things to keep in mind for the program to run properly:
+1. **Every topic must be ended with a "~" on a separate line.** 
+2. **At the end of your notes, you must have "\!" written on a new line.**
+3. When you copy-paste into the console to run the program, you **should not be copy-pasting any bullet point characters**. When I use Google Docs, for example, when I copy it to paste into the console, the bullet points are automatically not pasted in (which should also be a feature for you).
+Look at the image below as an example of both of these.
+![image](https://user-images.githubusercontent.com/68109717/116254164-b306b080-a7a3-11eb-8ec2-24235fa391dc.png)
+
+## Running the program
+
+The following steps will need to be repeated each time you run the program. Once you learn the steps, running the program becomes next to effortless.
+
+The first step for running the program is different for Windows and Mac OS. The rest of the steps are the same
+
+### For Windows
+Simply double click on the file. There should be some output from a console. 
+
+
+### For Mac
+Open Terminal and type ``~/Desktop/carder/./a.out`` switch "carder" out if necessary)
+
+### Next Steps
+1. Copy-paste your notes into the console and hit enter. Make sure that you have followed the format seen in the image above, and explained in writing above.
+2. The console should automatically stop prompting you if you have followed the correct format. There should now be a file in the folder of the program called ``ankiInput.txt``. This file will be overwritten each time the program is run.
+3. Open Anki and click on File -> Import.
+4. Make sure that the card type is Basic.
+5. Select the deck you wish to import into. Anki should detect that the fields are separated by tabs. 
+6. In the dropdown menu, select ``Update existing notes where first field matches``
+7. Tick the allow HTML in fields button
+8. Click import
+9. You are done! Make sure that everything imported correctly by browsing your deck.
+
+Steps 4-7 will automatically be preset once you set these up the first time, so you won't have to be too careful after your first import.
+
+If you have any questions, feel free to contact me at polavaram46361@sas.edu.sg
