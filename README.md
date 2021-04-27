@@ -42,11 +42,11 @@ If you are familiar with command line, you will realise that some of the steps b
 
 ### Instructions for downloading the program for Windows:
 1. Create a folder in your Desktop for the use of this program. If you already have a folder for whatever subject this is for, then feel free to use that.
-2. Download the a.exe file into the folder that you just created.
+2. Download the a.exe file into the folder that you just created. To download the file, click on the file and then click on "View Raw".
 
 ### Instructions for downloading the program for Mac OS:
 1. Create a folder in your Desktop, or use an existing folder. For all of the following instructions, **I will assume that the name of your folder is "carder". If it isn't "carder", then please replace "carder" with whatever the folder name is.**
-2. Download the a.out file and move it to carder.
+2. Download the a.out file and move it to carder. To download the file, click on the file and then click on "View Raw".
 3. Open terminal and type ``cd ~/Desktop/carder`` and hit enter (switch "carder" out if necessary). You should not be getting any error messages.
 4. Then type ``chmod +x a.out``. If you get any pop-up regarding the file not being safe because it was downloaded from Github, go to System Preferences->Security and Privacy and give the file permission.
 
