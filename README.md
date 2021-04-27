@@ -41,5 +41,11 @@ The .exe file is for Windows, and the .out file is for Mac OS.
 If you are familiar with command line, you will realise that some of the steps below can be skipped, but I've included them because I believe that they make the program a lot easier to use. Skip those steps if you wish to, but I suggest that everybody just follow all of the steps below. If you don't know what steps can be skipped, then you probably should just stick to all of the instructions below.
 
 # Instructions for downloading the program for Windows:
-1. Download the 
+1. Create a folder in your Desktop for the use of this program. If you already have a folder for whatever subject this is for, then feel free to use that.
+2. Download the .exe file into the folder that you just created.
+
 # Instructions for downloading the program for Mac OS:
+1. Create a folder in your Desktop, or use an existing folder. For all of the following instructions, **I will assume that the name of your folder is "carder". If it isn't "carder", then please replace "carder" with whatever the folder name is.**
+2. Download the .out file and move it to carder.
+3. Open terminal and type ``cd ~/Desktop/carder`` (switch "carder" out if necessary)
+4. 
