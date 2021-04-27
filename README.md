@@ -70,7 +70,7 @@ Simply double click on the file. There should be some output from a console.
 
 
 ### For Mac
-Open Terminal and type ``~/Desktop/carder/./a.out`` switch "carder" out if necessary)
+Open Terminal and type ``~/Desktop/carder/./a.out`` (switch "carder" out if necessary)
 
 ### Next Steps
 1. Copy-paste your notes into the console and hit enter. Make sure that you have followed the format seen in the image above, and explained in writing above.
