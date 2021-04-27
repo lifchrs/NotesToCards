@@ -39,6 +39,8 @@ using vpd = vector<pd>;
 
 #define nn << "\n"
 
+//These macros are from benqi
+
 str yuh, ans;
 
 vector<pair<vs,str> > things;
