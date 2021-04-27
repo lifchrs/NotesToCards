@@ -36,17 +36,17 @@ Essentially, what makes this program so useful, si that it utilises aAnki's feat
 ## Downloading
 Note that there are three files (other than the Readme, which is the file that you are reading right now) in this repository. The file with the extension .cpp is the code that compiles to make an executable program. However, compiling the code is annoying to set up if you haven't already set it up, so I've added two executables, which essentially means that I have already compiled it for you (saving you the pain of downloading a compiler). 
 
-The .exe file is for Windows, and the .out file is for Mac OS. 
+The a.exe file is for Windows, and the a.out file is for Mac OS. 
 
 If you are familiar with command line, you will realise that some of the steps below can be skipped, but I've included them because I believe that they make the program a lot easier to use. Skip those steps if you wish to, but I suggest that everybody just follow all of the steps below. If you don't know what steps can be skipped, then you probably should just stick to all of the instructions below.
 
 ### Instructions for downloading the program for Windows:
 1. Create a folder in your Desktop for the use of this program. If you already have a folder for whatever subject this is for, then feel free to use that.
-2. Download the .exe file into the folder that you just created.
+2. Download the a.exe file into the folder that you just created.
 
 ### Instructions for downloading the program for Mac OS:
 1. Create a folder in your Desktop, or use an existing folder. For all of the following instructions, **I will assume that the name of your folder is "carder". If it isn't "carder", then please replace "carder" with whatever the folder name is.**
-2. Download the .out file and move it to carder.
+2. Download the a.out file and move it to carder.
 3. Open terminal and type ``cd ~/Desktop/carder`` and hit enter (switch "carder" out if necessary). You should not be getting any error messages.
 4. Then type ``chmod +x a.out``. If you get any pop-up regarding the file not being safe because it was downloaded from Github, go to System Preferences->Security and Privacy and give the file permission.
 
