@@ -31,22 +31,23 @@ Now that the basic functionality of the program is clear (hopefully), let's talk
 
 If you add a note to a question that you have already made into a card, using the program once more and importing into Anki will not only be able to add the new card into the deck, *all* of the scheduling information for *all* of your other cards will be preserved! This means that you can run the program on your notes as you edit them again and again without disturbing any of the scheduling information for the previous cards you have created. Remember how the flashcard's second field (in other words, what you reveal) has all of the notes for the question? When you add another note and use the program, that added note will be added to the second field of all of the pre-existing cards. 
 
-Essentially, what makes this program so useful, si that it utilises aAnki's features to make carding **hassle-free** since it can be so dynamic.
+Essentially, what makes this program so useful, is that it utilises Anki's features to make carding **hassle-free** since it can be so dynamic.
 
 ## Downloading
-Note that there are three files (other than the Readme, which is the file that you are reading right now) in this repository. The file with the extension .cpp is the code that compiles to make an executable program. However, compiling the code is annoying to set up if you haven't already set it up, so I've added two executables, which essentially means that I have already compiled it for you (saving you the pain of downloading a compiler). 
+You can find the executables to download in the [releases](https://github.com/lifchrs/NotesToCards/releases). The executables are simply the C++ code that is in the directory, just that they have been compiled, saving you the time needed to download a compiler and go through that hassle.
 
-The a.exe file is for Windows, and the a.out file is for Mac OS. 
+The Windows32Bit.exe and Windows64Bit.exe files are for Windows, and the MacOS.out file is for Mac OS.
 
 If you are familiar with command line, you will realise that some of the steps below can be skipped, but I've included them because I believe that they make the program a lot easier to use. Skip those steps if you wish to, but I suggest that everybody just follow all of the steps below. If you don't know what steps can be skipped, then you probably should just stick to all of the instructions below.
 
 ### Instructions for downloading the program for Windows:
 1. Create a folder in your Desktop for the use of this program. If you already have a folder for whatever subject this is for, then feel free to use that.
-2. Download the a.exe file into the folder that you just created. To download the file, click on the file and then click on "View Raw".
+2. Download the relevant file (32 Bit or 64) into the folder that you just created. You can find the files [here](https://github.com/lifchrs/NotesToCards/releases).
+
 
 ### Instructions for downloading the program for Mac OS:
 1. Create a folder in your Desktop, or use an existing folder. For all of the following instructions, **I will assume that the name of your folder is "carder". If it isn't "carder", then please replace "carder" with whatever the folder name is.**
-2. Download the a.out file and move it to carder. To download the file, click on the file and then click on "View Raw".
+2. Download the MacOS.out file and move it to carder. You can find the file [here](https://github.com/lifchrs/NotesToCards/releases).
 3. Open terminal and type ``cd ~/Desktop/carder`` and hit enter (switch "carder" out if necessary). You should not be getting any error messages.
 4. Then type ``chmod +x a.out``. If you get any pop-up regarding the file not being safe because it was downloaded from Github, go to System Preferences->Security and Privacy and give the file permission.
 
