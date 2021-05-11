@@ -45,11 +45,17 @@ If you are familiar with command line, you will realise that some of the steps b
 2. Download the relevant file (32 Bit or 64 Bit) into the folder that you just created. You can find the files [here](https://github.com/lifchrs/NotesToCards/releases).
 
 
-### Instructions for downloading the program for Mac OS:
+### Instructions for downloading the program for MacOS:
 1. Create a folder in your Desktop, or use an existing folder. For all of the following instructions, **I will assume that the name of your folder is "carder". If it isn't "carder", then please replace "carder" with whatever the folder name is.**
 2. Download the MacOS.out file and move it to carder. You can find the file [here](https://github.com/lifchrs/NotesToCards/releases).
 3. Open terminal and type ``cd ~/Desktop/carder`` and hit enter (switch "carder" out if necessary). You should not be getting any error messages.
-4. Then type ``chmod +x a.out``. If you get any pop-up regarding the file not being safe because it was downloaded from Github, go to System Preferences->Security and Privacy and give the file permission.
+4. Then type ``chmod +x MacOS.out``. If you get any pop-up regarding the file not being safe because it was downloaded from Github, go to System Preferences->Security and Privacy and give the file permission.
+
+### Instructions for downloading the program for Linux:
+1. Create a folder in your Desktop, or use an existing folder. For all of the following instructions, **I will assume that the name of your folder is "carder". If it isn't "carder", then please replace "carder" with whatever the folder name is.**
+2. Download the Linux.out file and move it to carder. You can find the file [here](https://github.com/lifchrs/NotesToCards/releases).
+3. Open terminal and type ``cd ~/Desktop/carder`` and hit enter (switch "carder" out if necessary). You should not be getting any error messages.
+4. Then type ``chmod +x Linux.out``. 
 
 ## Note Formatting (IMPORTANT)
 
@@ -71,7 +77,11 @@ Simply double click on the file. There should be some output from a console.
 
 
 ### For Mac
-Open Terminal and type ``~/Desktop/carder/./a.out`` (switch "carder" out if necessary)
+Open Terminal and type ``~/Desktop/carder/./MacOS.out`` (switch "carder" out if necessary)
+
+
+### For Linux
+Open Terminal and type ``~/Desktop/carder/./Linux.out`` (switch "carder" out if necessary)
 
 ### Next Steps
 1. Copy-paste your notes into the console and hit enter. Make sure that you have followed the format seen in the image above, and explained in writing above.
