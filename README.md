@@ -42,7 +42,7 @@ If you are familiar with command line, you will realise that some of the steps b
 
 ### Instructions for downloading the program for Windows:
 1. Create a folder in your Desktop for the use of this program. If you already have a folder for whatever subject this is for, then feel free to use that.
-2. Download the relevant file (32 Bit or 64) into the folder that you just created. You can find the files [here](https://github.com/lifchrs/NotesToCards/releases).
+2. Download the relevant file (32 Bit or 64 Bit) into the folder that you just created. You can find the files [here](https://github.com/lifchrs/NotesToCards/releases).
 
 
 ### Instructions for downloading the program for Mac OS:
