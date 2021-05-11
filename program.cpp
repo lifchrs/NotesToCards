@@ -39,15 +39,15 @@ using vpd = vector<pd>;
 
 #define nn << "\n"
 
-str yuh, ans;
+str input, ans; //when input is /! or ~, it indicates a new card or termination of the program
 
-vector<pair<vs,str> > things;
+vector<pair<vs,str> > cards;
 
 
 void printCards()
 {
-  ofstream cout("ankiInput.txt");
-  for(pair<vs,str> note : things){
+  ofstream cout("ankiInput.txt"); //prints to ankiInput
+  for(pair<vs,str> note : cards){
     ans = note.s;
     vs clues = note.f;
   for(str y : clues){
@@ -72,35 +72,31 @@ int main()
     cout << "To use this program, first type the answer line then type each of the clues, with each clue being separated by a new line. You can copy paste text into terminal by doing Ctrl + shift + v. Type \"~\" (without the quotation marks) to finish inputting clues for a certain answer. Repeat this for all of your topics. Once you have entered all of the cards that you would like to create, write \"/!\" (once again, without quotes) for the program to finish. You will see that a file named \"ankiInput.txt\" will be in the directory that you ran the program in. Each time you use this program, the file will be over-written" nn;
 
     cout << "Further tip: If your notes are already written in a way such that you have the topic as the first line and ";
-    yuh = ans = "";
     bool finishProgram = 0;
     while (!finishProgram) {
         cout << "Enter an answer. If you are done " nn;
-        getline(cin, yuh);
-        if (yuh == "/!")
+        getline(cin, input);
+        if (input == "/!")
             break;
-        ans = yuh;
+        ans = input;
         vs clues;
         cout << "Enter all of the clues. If you have finished entering all of the clues for an answer, enter into a new line, and type \"~\"" nn;
         while (1) {
-            getline(cin, yuh);
-            if(yuh[sz(yuh)-1] == ' '){
-              yuh = yuh.substr(0,sz(yuh)-1);
+            getline(cin, input);
+            if(input[sz(input)-1] == ' '){
+              input = input.substr(0,sz(input)-1); //remove trailing space
             }
-            if(sz(yuh) == 3){
-              for(char& a : yuh) a = tolower(a);
-            }
-            if (yuh == "~")
+            if (input == "~")
                 break;
-            if (yuh == "/!") {
+            if (input == "/!") {
                 finishProgram = 1;
                 break;
             }
-            clues.pb(yuh);
+            clues.pb(input); // then the input is the clue
         }
         if (!finishProgram) {
-          things.pb(mp(clues,ans));
-            }
+          cards.pb(mp(clues,ans));
+        }
     }
     printCards();
 }
