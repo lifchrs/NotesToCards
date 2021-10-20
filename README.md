@@ -27,7 +27,7 @@ The flashcard after being revealed. Note that you get the other questions for th
 
 **1000s (maybe even 100000, I haven't tested that) of notes can be converted to flashcards in a matter of seconds using this program**
 
-Now that the basic functionality of the program is clear (hopefully), let's talk about some of the features that make it very cool (mainly due to Anki's features, not my code).
+Now that the basic functionality of the program is clear (hopefully), let's talk about some of the features that make it very cool (partially due to Anki's features).
 
 If you add a note to a question that you have already made into a card, using the program once more and importing into Anki will not only be able to add the new card into the deck, *all* of the scheduling information for *all* of your other cards will be preserved! This means that you can run the program on your notes as you edit them again and again without disturbing any of the scheduling information for the previous cards you have created. Remember how the flashcard's second field (in other words, what you reveal) has all of the notes for the question? When you add another note and use the program, that added note will be added to the second field of all of the pre-existing cards. 
 
