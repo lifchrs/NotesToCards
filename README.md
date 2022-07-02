@@ -96,4 +96,4 @@ Open Terminal and type ``~/Desktop/carder/./Linux.out`` (switch "carder" out if 
 
 Steps 4-7 will automatically be preset once you set these up the first time, so you won't have to be too careful after your first import.
 
-If you have any questions or if something doesn't seem to work, feel free to contact me at lifchrs#9097 (on Discord) or at polavaram46361@sas.edu.sg.
+If you have any questions or if something doesn't seem to work, feel free to contact me at lifchrs#9097 (on Discord) or at polavaramadhitya@gmail.com.
